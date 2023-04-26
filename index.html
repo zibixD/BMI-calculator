@@ -27,25 +27,25 @@
         <section class="BMI">
             <h2>Sprawdź swoje BMI!!!</h2>
             <form id="form">
-                <!-- <label for="sex">Podaj swoją płeć</label> -->
-                <!-- <section class="gender">
+                <label for="sex">Podaj swoją płeć</label>
+                <section class="gender">
                     <label for="men">Mężczyzna</label>
                     <input type="radio" name="sex" id="men" value="Mezczyzna">
                     <label for="women">Kobieta</label>
                     <input type="radio" name="sex" id="women" value="Kobieta">
-                </section> -->
+                </section>
                 <section class="measurement">
                     <label for="height">Podaj swój wzrost</label>
-                    <input type="number" name="height" id="height">
+                    <input type="number" name="height" id="height" placeholder="Wzrost [cm]">
                     <label for="weight">Podaj swoją wagę</label>
-                    <input type="number" name="weight" id="weight" step="0.1">
+                    <input type="number" name="weight" id="weight" step="0.1" placeholder="Waga [kg]">
                 </section>
                 <button type="button" id="submitBtn">Zatwierdź</button>
             </form>
         </section>
         <section>
             <h2>Normy BMI</h2>
-            <ul>
+            <ul id="list">
                 <li id="one">poniżej 16 - wygłodzenie</li>
                 <li id="two">16 - 16.99 - wychudzenie</li>
                 <li id="three">17 - 18.49 - niedowaga</li>
@@ -56,6 +56,7 @@
                 <li id="eight">powyżej 40.0 - III stopień otyłości zwany otyłością skrajną.</li>
             </ul>
         </section>
+
     </main>
 
     <script src="main.js"></script>
